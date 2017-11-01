@@ -1,0 +1,1 @@
+apkpatch.bat -f new.apk -t old.apk -o outputs -k selfkey.jks -p liyuhao -a liyuhao -e liyuhao

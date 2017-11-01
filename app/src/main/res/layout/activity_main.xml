@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/kill_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="createBug"
+        android:text="产生BUG"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"/>
+    <Button
+        android:id="@+id/clean_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="fixBug"
+        android:text="修复BUG"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"/>
+
+</LinearLayout>
